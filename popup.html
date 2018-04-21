@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ipsum | Dummy Text Clipboard</title>
+
+  <style>
+
+    body {
+      margin: auto;
+      padding: auto;
+    }
+
+    .popup {
+      width : 250px;
+      height : 50px;
+      text-align: center;
+    }
+
+    #myInput {
+      margin: 10px 0px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #EEE;
+      transition: 0.3s;
+    }
+
+    #myInput:hover {
+      outline: none !important;
+      border-bottom: 1px solid #222;
+      user-select: all;
+    }
+
+    #copyBtn {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #FFF;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      transition: 0.3s
+    }
+
+    #copyBtn:hover {
+      background-color: #000;
+      color: #FFF;
+      outline: none !important;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <!-- The text field -->
+    <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." id="myInput">
+    <!-- The button used to copy the text -->
+    <a href="https://loremipsum.io/" target="_blank"><button id="copyBtn" >More Text</button></a>
+  </div>
+
+  <!--
+  Javascript :
+    - Figure out how to copy text from #myInput
+    - Remove Link lortemipsum.io 
+  -->
+
+</body>
+</html>
